@@ -1,4 +1,4 @@
-angular.module("routingApp")
+angular.module("MyApp")
 
     .controller("HomeController", ["$scope", function($scope) {
 
