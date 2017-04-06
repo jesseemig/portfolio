@@ -69,7 +69,6 @@ body {
 }
 
 
-
 .github {
     margin-left: 4%;
     display: inline-block;
@@ -214,7 +213,7 @@ body {
 .navbarRight {
     list-style-type: none;
     padding: 0;
-    margin-right: 3%;
+    margin-right: 1.5%;
     margin-top: -0.75%;
 }
 
