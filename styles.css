@@ -22,22 +22,6 @@
     }
 }
 
-@font-face {
-    font-family: typewriter;
-    src: url(type.ttf);
-}
-
-
-@font-face {
-    font-family: paint;
-    src: url(ProtestPaintBB_ital.ttf);
-}
-
-
-@font-face {
-    font-family: Nunito;
-    src: url(Nunito-Light.ttf);
-}
 
 body {
     background: white;
@@ -285,7 +269,7 @@ body {
 }
 
 .name {
-    font-family: "Esat Hoxha NRML";
+    font-family: 'Special Elite', cursive;
     font-size: 800%;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -349,12 +333,13 @@ body {
 
 .me {
     margin-left: 10%;
-    padding-right: 5%;
+    padding-top: 1%;
+    position: relative;
 }
 
 .skills  {
     width: 100%;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 
 .resAll {
