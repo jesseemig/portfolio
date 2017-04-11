@@ -23,12 +23,44 @@
 }
 
 
+@font-face {
+    font-family: typewriter;
+    src: url(type.ttf);
+}
+
 body {
     background: white;
     width: 100%;
     overflow-x: hidden;
-    font-family: arial;
+    font-family: 'Droid Sans', sans-serif;
+    word-spacing: 1px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .spaDisplay {
+        margin-top: 11.5%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .spaDisplay {
+        margin-top: 8.5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+   .spaDisplay {
+        margin-top: 7%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .spaDisplay {
+       margin-top: 5.5%;
+    }
+}
+
 
 
 .navbar {
@@ -39,6 +71,7 @@ body {
     overflow-y: hidden;
     margin-left: -1%;
     position: fixed;
+    padding-top: 2%;
 }
 
 
@@ -48,7 +81,7 @@ body {
 
 
 .navbar-header {
-    margin-top: 2%;
+    
     width: 100%;
 }
 
@@ -257,23 +290,10 @@ body {
     display: block;
 }
 
-
-.aboutHeader {
-    background-image: url("../pics/books2.jpg");
-    text-align: center;
-    color: white;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.books {
+    width: 100%;
 }
 
-.name {
-    font-family: 'Special Elite', cursive;
-    font-size: 800%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
 
 .lower {
     background: url("../pics/hike.jpg") no-repeat bottom;
@@ -284,9 +304,6 @@ body {
     min-height: 800px;
 }
 
-.spaDisplay {
-    margin-top: 5.5%;
-}
 
 .aboutMe {
     color: white;
@@ -339,7 +356,7 @@ body {
 
 .skills  {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .resAll {
