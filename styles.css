@@ -70,7 +70,7 @@ body {
     width: 102%;
     overflow-y: hidden;
     margin-left: -1%;
-    position: fixed;
+    
     padding-top: 2%;
 }
 
@@ -354,6 +354,64 @@ body {
     position: relative;
 }
 
+
+.projectContainer {
+    width: 100%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.projectText {
+    color: black;
+    display: inline-block;
+    width: 55%;
+    margin-left: 5%;
+    float: left;
+}
+
+.projectName {
+    font-size: 350%;
+}
+
+.projectPic {
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    position: relative;
+    float: left;
+    margin-top: 2%;
+}
+
+.projectPic:hover {
+    transform-origin:0 0;
+    box-shadow: 0px 0px 100px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(2);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(2);
+    transition: all 200ms ease-in;
+}
+
+.projectDescription {
+    line-height: 130%;
+}
+
+
+.projectLinks {
+    color: red;
+}
+
 .skills  {
     width: 100%;
     margin-top: 2%;
@@ -411,53 +469,5 @@ body {
     border-bottom: solid;
 }
 
-.projectContainer {
-    width: 100%;
-    margin-left: 5%;
-    padding-bottom: 5%;
-}
-
-.projectText {
-    color: black;
-    display: inline-block;
-    width: 50%;
-    margin-left: 10%;
-}
-
-.projectName {
-    font-size: 350%;
-}
-
-.projectPic {
-    height: 30%;
-    width: 30%;
-    display: inline-block;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-    position: relative;
-}
-
-.projectPic:hover {
-    transform-origin:0 0;
-    box-shadow: 0px 0px 100px #000000;
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(2);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(2);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(2);
-    transition: all 200ms ease-in;
-}
-
-.projectDescription {
-    letter-spacing: 0.08em;
-}
 
 
