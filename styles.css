@@ -34,43 +34,20 @@ body {
     overflow-x: hidden;
     font-family: 'Droid Sans', sans-serif;
     word-spacing: 1px;
+    padding-top: 61px;
 }
 
 
-@media screen and (max-width: 767px) {
-    .spaDisplay {
-        margin-top: 11.5%;
-    }
+@media screen and (max-width: 768px) {
+    body { padding-top: 60px; }
 }
-
-@media screen and (min-width: 768px) {
-    .spaDisplay {
-        margin-top: 8.5%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-   .spaDisplay {
-        margin-top: 7%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .spaDisplay {
-       margin-top: 5.5%;
-    }
-}
-
 
 
 .navbar {
-    margin-bottom: 0px;
     background-image: url("../pics/darkSteel.jpg");
     border: 0px;
     width: 102%;
-    overflow-y: hidden;
     margin-left: -1%;
-    
     padding-top: 2%;
 }
 
@@ -81,7 +58,6 @@ body {
 
 
 .navbar-header {
-    
     width: 100%;
 }
 
@@ -237,10 +213,6 @@ body {
 .homeH {
     display: inline-block;
     margin-left: -25%;
-}
-
-
-.homeLink {
     float: left;
 }
 
@@ -257,10 +229,6 @@ body {
     display: inline-block;
     padding-right: 10%;
     padding-left: 10%;
-}
-
-
-.projectsLink {
     float: left;
 }
 
@@ -275,12 +243,9 @@ body {
 
 .resumeH {
     display: inline-block;
-}
-
-
-.resumeLink {
     float: left;
 }
+
 
 
 .resumeA {
@@ -341,7 +306,6 @@ body {
 .aboutLeft {
     width: 55%;
     float: left;
-    margin-left: 5%;
     color: white;
     background-color: rgba(30,30,30,0.5);
     margin-top: 3%;
@@ -433,6 +397,10 @@ body {
 
 .lis {
     margin-left: 12%;
+}
+
+.vibeRow {
+    margin-top: 3%;
 }
 
 .education {
