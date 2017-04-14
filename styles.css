@@ -5,7 +5,6 @@ body {
     width: 100%;
     overflow-x: hidden;
     font-family: 'Droid Sans', sans-serif;
-    word-spacing: 1px;
     padding-top: 56px;
 }
 
@@ -21,7 +20,6 @@ body {
     background-image: url("../pics/darkSteel.jpg");
     border: 0px;
     width: 100%;
-
     padding-top: 1%;
 }
 
@@ -172,7 +170,7 @@ body {
 .navbarRight {
     list-style-type: none;
     padding: 0;
-    margin-top: -0.5%;
+    
 }
 
 
@@ -183,18 +181,23 @@ body {
 
 .navAnc {
     color: #d6d6d6;
-    font-size: 2vw;
+    font-size: 1.7vw;
     text-align: center;
     display: block;
     margin-right: 16px;
 }
 
+.navAnc:hover {
+    color: #fec842;
+}
+
 
 @media screen and (max-width: 768px) {
     .navAnc { 
-        font-size: 4vw; 
+        font-size: 3vw; 
     }
 }
+
 
 @media screen and (max-width: 776px) {
     .navAnc { 
@@ -205,15 +208,20 @@ body {
 
 .resumeAnc {
     color: #d6d6d6;
-    font-size: 2vw;
+    font-size: 1.7vw;
     text-align: center;
     display: block;
 }
 
 
+.resumeAnc:hover {
+    color: #fec842;
+}
+
+
 @media screen and (max-width: 768px) {
     .resumeAnc { 
-        font-size: 4vw; 
+        font-size: 3vw; 
     }
 }
 
@@ -241,9 +249,10 @@ body {
 
 .aboutMe {
     color: white;
-    font-family: "ProtestPaint BB";
-    font-size: 800%;
+    font-family: "Permanent Marker", cursive;
+    font-size: 5em;
     margin-left: 25%;
+    text-align: center;
 }
 
 .quoteDiv {
@@ -349,8 +358,20 @@ body {
 
 
 .projectLinks {
-    color: red;
+    color: #db4f4d;
+    text-decoration: underline;
 }
+
+.projectLinks:hover {
+    text-decoration: none;
+}
+
+
+.moreLine {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
 
 .skills  {
     width: 100%;
@@ -387,9 +408,6 @@ body {
     border-bottom: solid;
 }
 
-.work {
-    margin-top: 3%;
-}
 
 .job {
     margin-left: 10%;
@@ -406,7 +424,7 @@ body {
 }
 
 .title {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .accomplishments {
