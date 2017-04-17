@@ -238,8 +238,8 @@ body {
 
 
 .lower {
-    background-image: url("../pics/trees.jpg");
-    background-position: center center;
+    background-image: url("../pics/forest.jpg");
+    background-position: bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
