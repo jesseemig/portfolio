@@ -239,23 +239,36 @@ body {
 
 .lower {
     background-image:url("../pics/hike.jpg");
-background-position: center center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-height: 100%; 
-overflow: hidden;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%; 
+    overflow: hidden;
 }
 
 
 .aboutMe {
     color: white;
     font-family: "Permanent Marker", sans-serif;
-    font-size: 5em;
-    margin-left: 25%;
+    font-size: 5vw;
     text-align: center;
 }
+
+
+@media screen and (max-width: 768px) {
+    .aboutMe { 
+        font-size: 11vw; 
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .aboutMe { 
+        font-size: 11vw; 
+    }
+}
+
 
 .quoteDiv {
     width: 100%;
@@ -283,10 +296,10 @@ overflow: hidden;
     height: 20%;
     width: 20%;
     display: inline-block;
-    float: left;
+    float: right;
     margin-top: 3%;
     margin-bottom: 5%;
-    margin-left: 17%;
+    margin-right: 7%;
 }
 
 
@@ -296,6 +309,8 @@ overflow: hidden;
     color: white;
     background-color: rgba(30,30,30,0.5);
     margin-top: 3%;
+    padding-right: 3%;
+    margin-left: 3%
 }
 
 
@@ -303,6 +318,19 @@ overflow: hidden;
     margin-left: 10%;
     padding-top: 1%;
     position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+    .me { 
+        font-size: 5vw; 
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .me { 
+        font-size: 5vw; 
+    }
 }
 
 
