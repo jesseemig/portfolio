@@ -188,7 +188,7 @@ body {
 }
 
 .navAnc:hover {
-    color: #fec842;
+    color: #ff6501;
 }
 
 
@@ -215,7 +215,7 @@ body {
 
 
 .resumeAnc:hover {
-    color: #fec842;
+    color: #ff6501;
 }
 
 
@@ -246,6 +246,7 @@ body {
     background-size: cover;
     height: 100%; 
     overflow: hidden;
+    padding-bottom: 5%;
 }
 
 
@@ -293,29 +294,25 @@ body {
 }
 
 .photo {
-    height: 20%;
-    width: 20%;
+    height: 30%;
+    width: 30%;
     display: inline-block;
     float: right;
-    margin-top: 3%;
-    margin-bottom: 5%;
-    margin-right: 7%;
+    padding-left: 3%;
 }
 
 
 .aboutLeft {
-    width: 55%;
+    width: 95%;
     float: left;
     color: white;
     background-color: rgba(30,30,30,0.5);
     margin-top: 3%;
-    padding-right: 3%;
-    margin-left: 3%
 }
 
 
 .me {
-    margin-left: 10%;
+    margin-left: 5%;
     padding-top: 1%;
     position: relative;
 }
@@ -332,6 +329,25 @@ body {
         font-size: 5vw; 
     }
 }
+
+
+.aboutPara {
+    padding-right: 3%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .aboutPara { 
+        font-size: 4vw; 
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .aboutPara { 
+        font-size: 4vw; 
+    }
+}
+
 
 
 .projectContainer {
@@ -388,7 +404,7 @@ body {
 
 
 .projectLinks {
-    color: #db4f4d;
+    color: red;
     text-decoration: underline;
 }
 
