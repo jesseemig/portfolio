@@ -1,5 +1,3 @@
-
-
 body {
     background: white;
     width: 100%;
@@ -8,13 +6,11 @@ body {
     padding-top: 56px;
 }
 
-
 @media screen and (max-width: 768px) {
-    body { 
-        padding-top: 48px; 
+    body {
+        padding-top: 48px;
     }
 }
-
 
 .navbar {
     background-image: url("../pics/darkSteel.jpg");
@@ -23,16 +19,13 @@ body {
     padding-top: 1%;
 }
 
-
 .navbar-brand {
     padding: 0px;
 }
 
-
 .navbar-header {
     width: 100%;
 }
-
 
 .github {
     margin-left: 1%;
@@ -42,14 +35,12 @@ body {
     margin-top: -0.3%;
 }
 
-
 .gitPic {
     opacity: 1;
     max-height: 65%;
     transition: .5s ease;
     backface-visibility: hidden;
 }
-
 
 .gitoverlay {
     transition: .5s ease;
@@ -61,23 +52,19 @@ body {
     -ms-transform: translate(-50%, -50%);
 }
 
-
 .gitWord {
     font-size: 80%;
     color: white;
 }
 
-
 .github:hover .gitPic {
     opacity: 0.6;
 }
-
 
 .github:hover .gitoverlay {
     opacity: 1;
     margin-left: -10%;
 }
-
 
 .linked {
     margin-left: 3%;
@@ -86,7 +73,6 @@ body {
     width: auto;
     margin-top: -0.3%;
 }
-
 
 .linkPic {
     opacity: 1;
@@ -105,23 +91,19 @@ body {
     -ms-transform: translate(-50%, -50%);
 }
 
-
 .linkedWord {
     font-size: 80%;
     color: white;
 }
 
-
 .linked:hover .linkPic {
     opacity: 0.6;
 }
-
 
 .linked:hover .linkedoverlay {
     opacity: 1;
     margin-left: -20%;
 }
-
 
 .email {
     margin-left: 3%;
@@ -130,7 +112,6 @@ body {
     width: auto;
     margin-top: -0.3%;
 }
-
 
 .emailPic {
     opacity: 1;
@@ -149,35 +130,28 @@ body {
     -ms-transform: translate(-50%, -50%);
 }
 
-
 .emailWord {
     font-size: 80%;
     color: white;
 }
 
-
 .email:hover .emailPic {
     opacity: 0.6;
 }
-
 
 .email:hover .emailoverlay {
     opacity: 1;
     margin-left: 29%;
 }
 
-
 .navbarRight {
     list-style-type: none;
     padding: 0;
-    
 }
-
 
 .navLink {
     float: left;
 }
-
 
 .navAnc {
     color: #d6d6d6;
@@ -195,20 +169,17 @@ a:active {
     color: #ff6501;
 }
 
-
 @media screen and (max-width: 768px) {
-    .navAnc { 
-        font-size: 3vw; 
+    .navAnc {
+        font-size: 3vw;
     }
 }
-
 
 @media screen and (max-width: 776px) {
-    .navAnc { 
-        font-size: 4vw; 
+    .navAnc {
+        font-size: 4vw;
     }
 }
-
 
 .resumeAnc {
     color: #d6d6d6;
@@ -217,29 +188,25 @@ a:active {
     display: block;
 }
 
-
 .resumeAnc:hover {
     color: #ff6501;
 }
 
-
 @media screen and (max-width: 768px) {
-    .resumeAnc { 
-        font-size: 3vw; 
+    .resumeAnc {
+        font-size: 3vw;
     }
 }
 
 @media screen and (max-width: 776px) {
-    .resumeAnc { 
-        font-size: 4vw; 
+    .resumeAnc {
+        font-size: 4vw;
     }
 }
-
 
 .books {
     width: 100%;
 }
-
 
 .lower {
     background-image: url("../pics/forest.jpg");
@@ -248,11 +215,10 @@ a:active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%; 
+    height: 100%;
     overflow: hidden;
     padding-bottom: 5%;
 }
-
 
 .aboutMe {
     color: white;
@@ -261,39 +227,35 @@ a:active {
     text-align: center;
 }
 
-
 @media screen and (max-width: 768px) {
-    .aboutMe { 
-        font-size: 11vw; 
+    .aboutMe {
+        font-size: 11vw;
     }
 }
 
 @media screen and (max-width: 776px) {
-    .aboutMe { 
-        font-size: 11vw; 
+    .aboutMe {
+        font-size: 11vw;
     }
 }
-
 
 .quoteDiv {
     width: 100%;
     text-align: center;
 }
 
-
 .quote {
     text-align: center;
     color: white;
     margin-top: 0%;
     padding: 1%;
-    background-color: rgba(30,30,30,0.6);
+    background-color: rgba(30, 30, 30, 0.6);
     font-size: 2vw;
 }
 
-
 @media screen and (max-width: 768px) {
-    .quote { 
-        font-size: 4vw; 
+    .quote {
+        font-size: 4vw;
     }
 }
 
@@ -305,15 +267,13 @@ a:active {
     padding-left: 3%;
 }
 
-
 .aboutLeft {
     width: 95%;
     float: left;
     color: white;
-    background-color: rgba(30,30,30,0.5);
+    background-color: rgba(30, 30, 30, 0.5);
     margin-top: 3%;
 }
-
 
 .me {
     margin-left: 5%;
@@ -321,38 +281,33 @@ a:active {
     position: relative;
 }
 
-
 @media screen and (max-width: 768px) {
-    .me { 
-        font-size: 5vw; 
+    .me {
+        font-size: 5vw;
     }
 }
 
 @media screen and (max-width: 776px) {
-    .me { 
-        font-size: 5vw; 
+    .me {
+        font-size: 5vw;
     }
 }
-
 
 .aboutPara {
     padding-right: 3%;
 }
 
-
 @media screen and (max-width: 768px) {
-    .aboutPara { 
-        font-size: 4vw; 
+    .aboutPara {
+        font-size: 4vw;
     }
 }
 
 @media screen and (max-width: 776px) {
-    .aboutPara { 
-        font-size: 4vw; 
+    .aboutPara {
+        font-size: 4vw;
     }
 }
-
-
 
 .projectContainer {
     width: 100%;
@@ -390,7 +345,7 @@ a:active {
 }
 
 .projectPic:hover {
-    transform-origin:0 0;
+    transform-origin: 0 0;
     box-shadow: 0px 0px 100px #000000;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
@@ -406,7 +361,6 @@ a:active {
     line-height: 130%;
 }
 
-
 .projectLinks {
     color: red;
     text-decoration: underline;
@@ -416,14 +370,12 @@ a:active {
     text-decoration: none;
 }
 
-
 .moreLine {
     text-align: center;
     margin-bottom: 5%;
 }
 
-
-.skills  {
+.skills {
     width: 100%;
     margin-top: 2%;
 }
@@ -458,13 +410,11 @@ a:active {
     border-bottom: solid;
 }
 
-
 .job {
     margin-left: 10%;
 }
 
-
-.date{
+.date {
     margin-top: -1%;
 }
 
