@@ -386,6 +386,7 @@ a:active {
 
 .section {
     margin-left: 5%;
+    font-weight: bolder;
 }
 
 .uls {
@@ -400,14 +401,6 @@ a:active {
 
 .vibeRow {
     margin-top: 3%;
-}
-
-.education {
-    border-bottom: solid;
-}
-
-.skillsSection {
-    border-bottom: solid;
 }
 
 .job {
@@ -427,10 +420,14 @@ a:active {
     margin-top: 3%;
 }
 
-.accomplishments {
-    border-bottom: solid;
-}
-
 .lastUl {
     padding-bottom: 5%;
+}
+
+.line {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: solid;
+    margin-top: -1%;
 }
